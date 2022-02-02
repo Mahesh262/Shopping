@@ -1,0 +1,26 @@
+import lions from './images/lions.jpg';
+import field from './images/field.jpg';
+import swan from './images/swan.jpg';
+const Data = {
+    productsData: [
+        {
+            id: 1,
+            img: lions,
+            title: 'mango',
+            price: 36,
+        },
+        {
+            id: 2,
+            img: field,
+            title: 'Rosemonst',
+            price: 45,
+        },
+        {
+            id: 1,
+            img: swan,
+            title: 'peter',
+            price: 56,
+        }
+    ],
+};
+export default Data;
